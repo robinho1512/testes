@@ -6,7 +6,6 @@ function caucularmedia(numeros) {
         console.log(i)
         console.log(numeros);
     }
-    return some / totalnumeros
+    return soma / totalnumeros
 }
 console.log(caucularmedia([10, 20, 30]));
-
