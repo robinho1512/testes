@@ -1,4 +1,4 @@
-{
+const pessoa = {
 "nome": "Joao",
 "email": "joao@firma.com",
 "telefone": ["11223344", "11922334453"],
@@ -9,4 +9,6 @@
 "complemento": "ap 934"
 }
 
-}
+};
+
+console.log(pessoa);
