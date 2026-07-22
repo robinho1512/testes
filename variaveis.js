@@ -11,12 +11,12 @@ console.log("valor do total é:", total);
 console.log("valor do totald é:", totald);
 console.log(outraconta());
 console.log(media());
-console.log(Carro());
-console.log(teste());
-console.log(teste2());
-console.log(teste3());
-console.log(mediaSE());
-console.log(frutas());
+Carro();
+teste();
+teste2();
+teste3();
+mediaSE();
+frutas();
 
 //inicio da function
 
@@ -31,16 +31,16 @@ function outraconta(){
     totd = (d+e+f)/xx;
     //console.log ("valor de tot é", tot);
     return tot;
-    return totd;
+    console.log("valor de totd é:", totd);
     //console.log ("valor de totd é", totd);
 }
 
 
 function media(){
 let nfinal= 0;
-n1= 30;
-n2= 90;
-n3= 100;
+let n1 = 30;
+let n2 = 90;
+let n3 = 100;
 nfinal= (n1+n2+n3)/3;
 //console.log("A media final do aluno é:", nfinal.toFixed(1));
 return nfinal.toFixed(1);
@@ -66,15 +66,15 @@ function teste (){
     console.log 
     ("hello word!");
     console.log
-    (0123456789);
+    ("0123456789");
     console.log
     ("joao");
-    x=8+9;
+    x = 8 + 9;
     console.log(x);
-    y=81;
-    z=9;
-    m=y+z
-    t=m+x
+    let y = 81;
+    let z = 9;
+    let m = y + z;
+    let t = m + x;
     console.log (m);
     console.log("O resultado é ",m)
     console.log("O outro resultado é",x)
@@ -82,17 +82,17 @@ function teste (){
     
 }
 function teste2 (){
-    B=32534;
-A=12;
-T=B*A/2;
+    let B = 32534;
+    let A = 12;
+    let T = B * A / 2;
 console.log("O valor da área é",T)
 }
 
 function teste3 (){
-    A=2;
-    B=5;
-    C=8;
-    delta=(B,2) - 4*A*C;
+    let A = 2;
+    let B = 5;
+    let C = 8;
+    let delta = B ** 2 - 4 * A * C;
     console.log("o resultado é",delta);
      
 }
@@ -111,7 +111,7 @@ media = (n1 + n2 + n3 + n4)/4;
 if (media>=70){
     result="aprovado"
 }else{
-    result="repovado"
+    result="reprovado"
 }
 console.log("**** MEDIA.JS ***");
 console.log("O aluno "+aluno+" tem a media "+media+" e está: "+result);
@@ -134,8 +134,8 @@ frutas.push(' Uva ');
 frutas.push('amora');
 frutas.push(' Mexirica ',' Abacate ',' Abacaxi ');
 console.log(frutas);
-console.log("A fruta na posição na posição 1 é: ", frutas[1]);
-console.log("O Total de registros é: ", frutas.length+2+2, " frutas.");
+    console.log("A fruta na posição 1 é: ", frutas[1]);
+    console.log("O total de registros é: ", frutas.length, "frutas.");
 frutas.unshift("Cereja");
 console.log(frutas);
 frutas.pop();
