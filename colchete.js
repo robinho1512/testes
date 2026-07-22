@@ -12,5 +12,6 @@ const cliente = {
   const chaves = ["nome", "idade", "cpf", "email", "altura"];
   
   chaves.forEach((chave) => {
-    console.log(`A chave ${chave} tem valor ${cliente[chave]}`);
+    const valor = cliente[chave] ?? "não informado";
+    console.log(`A chave ${chave} tem valor ${valor}`);
   });
