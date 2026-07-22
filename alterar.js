@@ -1,4 +1,4 @@
-const pessoa = {
+let pessoa = {
     nome: "Luma",
     profissao: "Engenheira",
   };
